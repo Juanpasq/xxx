@@ -1,0 +1,32 @@
+programa asd
+areas
+  ciudad : AreaC(1,1,100,100)
+robots
+  robot robot1
+  variables
+    pos1 : numero
+    pos2 : numero
+  comenzar
+    pos1 := 1
+    pos2 := 1
+    Pos(pos1,pos2)
+    repetir 99
+      mientras (pos2 < 100)
+        mover
+        pos2 := pos2 +1
+      
+      
+
+
+    
+    
+  fin
+variables
+  r_info : robot1
+comenzar
+  AsignarArea(r_info,ciudad)
+  Iniciar(r_info,1,1)
+fin
+  
+  
+  
